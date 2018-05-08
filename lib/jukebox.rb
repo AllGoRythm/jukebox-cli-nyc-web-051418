@@ -38,22 +38,22 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
-  help
-
-  until command_entered == "exit"
-    puts "Please enter a command: "
-    command_entered = gets.chomp
-
-    case command_entered
-    when "list"
-      list
-    when "play"
-      play
-    when "help"
-      help
-    else "exit"
-      exit_jukebox
-    end
-  end
-end
+# def run
+#   help
+#
+#   until command_entered == "exit"
+#     puts "Please enter a command: "
+#     command_entered = gets.chomp
+#
+#     case command_entered
+#     when "list"
+#       list
+#     when "play"
+#       play
+#     when "help"
+#       help
+#     else "exit"
+#       exit_jukebox
+#     end
+#   end
+# end
