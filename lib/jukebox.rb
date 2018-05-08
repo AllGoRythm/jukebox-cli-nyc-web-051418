@@ -20,13 +20,19 @@ end
 
 def list(songs)
   songs.each_with_index do |song, index|
-    puts song if index + 1
+    puts "#{index + 1}. #{song}"
   end
 end
 
 def play(songs)
   puts "Please enter a song name or number:"
   song_entered = gets.chomp
+  songs.select do ||song| if song|
+
+  end
+
+
+
   unless song_entered == songs
     puts "Invalid input, please try again"
   else
