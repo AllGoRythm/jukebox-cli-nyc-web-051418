@@ -23,3 +23,7 @@ def list(songs)
     puts song if index + 1
   end
 end
+
+def exit
+  puts "Goodbye"
+end
