@@ -20,6 +20,6 @@ end
 
 def list(songs)
   songs.each_with_index do |song, index|
-    puts song if index = 1
+    puts song if index + 1
   end
 end
