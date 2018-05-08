@@ -55,5 +55,5 @@ def run
     else "exit"
       exit_jukebox
     end
-
+  end
 end
