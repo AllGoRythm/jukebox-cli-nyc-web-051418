@@ -19,6 +19,8 @@ def help
 end
 
 def list(songs)
+
+  i = 1
   songs.each_with_index do |variable|
 
   end
