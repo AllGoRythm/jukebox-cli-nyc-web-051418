@@ -19,5 +19,7 @@ def help
 end
 
 def list(songs)
-  
+  if songs == true
+    puts songs
+  end
 end
