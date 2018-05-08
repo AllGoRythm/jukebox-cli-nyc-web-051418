@@ -41,7 +41,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(command)
   # method should call on the help method to show the user the available commands.
   # Then, it should puts out the prompt: "Please enter a command:".
   # It should capture the user's response using gets.chomp or gets.strip.
