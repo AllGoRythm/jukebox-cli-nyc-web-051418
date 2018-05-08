@@ -22,6 +22,6 @@ def list(songs)
 
   i = 1
   songs.each_with_index do |variable|
-
+    binding.pry
   end
 end
