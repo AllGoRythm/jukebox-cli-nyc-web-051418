@@ -51,7 +51,6 @@ def run(command_entered)
   # For example, if their input is "list", call the list method, if their input is "play", call the play method, if their input is "help", call the help method
   # and if their input is "exit", call the exit_jukebox method and break out of your loop to stop the program.
 
-
   until command_entered == "exit"
     puts "Please enter a command:"
     command_entered = gets.chomp
