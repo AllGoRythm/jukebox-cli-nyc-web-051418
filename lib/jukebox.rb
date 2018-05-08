@@ -24,6 +24,6 @@ def list(songs)
   end
 end
 
-def exit
+def exit(leave)
   puts "Goodbye"
 end
