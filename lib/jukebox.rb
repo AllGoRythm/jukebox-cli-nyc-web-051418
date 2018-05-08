@@ -19,13 +19,7 @@ def help
 end
 
 def list(songs)
-
-
-  songs.each_with_index do |variable|
-
+  songs.each_with_index do |song, index|
+    puts song if index == 1
   end
-end
-
-songs.each_with_index do |variable|
-
 end
