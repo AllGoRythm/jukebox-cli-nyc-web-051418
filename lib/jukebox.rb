@@ -24,10 +24,16 @@ def list(songs)
   end
 end
 
+def play
+
+end
+
 def exit_jukebox
   puts "Goodbye"
 end
 
-def run
-  puts help
-end
+# def run
+#   help
+#   puts "Please enter a command: "
+#   command_entered = gets.chomp
+# end
