@@ -27,10 +27,11 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_entered = gets.chomp
-  if song_entered.nil?
-    puts "Playing <song name>"
-  else
+  unless song_entered.nil?
     puts "Invalid input, please try again"
+
+  else
+    puts "Playing <song name>"
   end
 end
 
