@@ -38,8 +38,13 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-# def run
-#   help
-#   puts "Please enter a command: "
-#   command_entered = gets.chomp
-# end
+def run
+  help
+  puts "Please enter a command: "
+  command_entered = gets.chomp
+  until command_entered == "exit"
+
+
+
+  end
+end
