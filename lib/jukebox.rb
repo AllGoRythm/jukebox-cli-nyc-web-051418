@@ -34,14 +34,6 @@ def play(songs)
   end
     puts "Invalid input, please try again."
   end
-
-
-
-  unless song_entered == songs
-    puts "Invalid input, please try again"
-  else
-    puts "Playing <song name>"
-  end
 end
 
 def exit_jukebox
