@@ -23,6 +23,10 @@ def list(songs)
 
 
   songs.each_with_index do |variable|
-    binding.pry
+
   end
+end
+
+songs.each_with_index do |variable|
+
 end
