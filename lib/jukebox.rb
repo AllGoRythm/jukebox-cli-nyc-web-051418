@@ -24,6 +24,6 @@ def list(songs)
   end
 end
 
-def exit(leave)
+def exit_jukebox(leave)
   puts "Goodbye"
 end
